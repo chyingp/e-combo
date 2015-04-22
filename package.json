@@ -21,8 +21,9 @@
   },
   "homepage": "https://github.com/chyingp/e-combo",
   "dependencies": {
-    "cssmin": "^0.4.3",
-    "express": "^4.12.3",
-    "uglify-js": "^2.4.20"
+    "cssmin": "0.4.3",
+    "express": "4.12.3",
+    "uglify-js": "2.4.20",
+    "compression": "1.4.3"
   }
 }
