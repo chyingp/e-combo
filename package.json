@@ -1,0 +1,28 @@
+{
+  "name": "e-combo",
+  "version": "0.0.1",
+  "description": "micro combo service based on express",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/chyingp/e-combo"
+  },
+  "keywords": [
+    "combo",
+    "express"
+  ],
+  "author": "chyingp",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chyingp/e-combo/issues"
+  },
+  "homepage": "https://github.com/chyingp/e-combo",
+  "dependencies": {
+    "cssmin": "^0.4.3",
+    "express": "^4.12.3",
+    "uglify-js": "^2.4.20"
+  }
+}
