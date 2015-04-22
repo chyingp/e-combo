@@ -3,6 +3,6 @@ var express = require('express'),
 	router = require('./routers');
 
 app.set('root', './');
-app.use(router);
+app.use('/c/=/', router);
 app.use(express.static(__dirname + '/public'));
 app.listen(3000);

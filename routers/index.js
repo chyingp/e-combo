@@ -5,7 +5,7 @@ var express = require('express'),
 	path = require('path'),
 	compress = require('../lib/compress');
 
-router.use('/c/=/', function(req, res, next) {
+router.use(function(req, res, next) {
 
 	var obj = url.parse(req.path),
 		paths = obj.path.replace(/^\//, '').split(','),
